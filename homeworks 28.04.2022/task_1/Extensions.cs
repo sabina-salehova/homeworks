@@ -17,10 +17,8 @@ namespace task_1
                 else
                 {
                     if (mainStr.Substring(i, searchedStr.Length).ToLower() == searchedStr.ToLower())
-                    {
-                        result = true;
-                        break;
-                    }
+                       result = true;                        
+                    
                 }
             }
 
